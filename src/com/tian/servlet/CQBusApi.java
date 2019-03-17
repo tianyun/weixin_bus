@@ -1,7 +1,6 @@
 package com.tian.servlet;
 
-import api.BusInfo;
-
+import com.tian.api.BusInfo;
 import com.tian.cqbus.CQBusAction;
 import com.tian.cqbus.CQBusQueryPlace;
 import com.tian.cqbus.Station;

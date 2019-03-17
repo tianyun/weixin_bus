@@ -17,7 +17,7 @@ import com.tian.entity.NewsMessage;
 import com.tian.util.DBUtilMysql;
 import com.tian.util.MessageUtil;
 import com.tian.web.MakeFriend.MakeFriend_To;
-import com.tian.xcBus.Bus;
+import com.tian.xcbus.Bus;
 
 /**
  * 微信id：gh_e8a2c02918d5

@@ -14,7 +14,7 @@ import com.tian.util.AccessTokenUtil;
 import com.tian.util.MessageUtil;
 import com.tian.util.WeixinUtil;
 import com.tian.web.MakeFriend.MakeFriend_To;
-import com.tian.xcBus.BusAction;
+import com.tian.xcbus.BusAction;
 
 /**
  * 新昌公交专用 纯java 接口

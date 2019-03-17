@@ -1,0 +1,3 @@
+"0001" : interface error
+"0002" : database error
+"0003" : request error

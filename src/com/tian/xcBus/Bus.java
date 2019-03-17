@@ -1,4 +1,4 @@
-package com.tian.xcBus;
+package com.tian.xcbus;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -191,7 +191,7 @@ public class Bus {
 		System.out.println(tt);
 	}
 	
-	@Test
+	//@Test
 	public void testGetBusInfo() {
 		String businfoString = Bus.getBusInfo("111","2");
 		System.out.println(businfoString);
@@ -202,7 +202,7 @@ public class Bus {
 		Bus.queryLine("2 2");
 	}
 	
-	//@Test
+	@Test
 	public void testAll() {
 		Map<String, String> resMap = Bus.queryLine("2 2");
 		if("0001".equals(resMap.get("code"))) {

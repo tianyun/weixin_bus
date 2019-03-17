@@ -11,7 +11,7 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
 </head>
 <body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
 <hr size="1" noshade>
-Log session start time Sun Aug 05 18:15:01 CST 2018<br>
+Log session start time Thu Mar 07 21:40:59 CST 2019<br>
 <br>
 <table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
 <tr>
@@ -26,111 +26,41 @@ Log session start time Sun Aug 05 18:15:01 CST 2018<br>
 <td>0</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
-<td title="com.tian.xcBus.Bus category">com.tian.xcBus.Bus</td>
-<td title="Message">正常--####--进入Bus-&gt;queryLine--####,传入参数queryParam：8</td>
+<td title="com.tian.csbus.BusFunction category">com.tian.csbus.BusFunction</td>
+<td title="Message">正常--####--进入BusFunction-》queryStationByLinename--####,传入参数linename：旅1</td>
 </tr>
 
 <tr>
-<td>4</td>
+<td>3</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
-<td title="com.tian.xcBus.DDBusUtil category">com.tian.xcBus.DDBusUtil</td>
-<td title="Message">正常--####--进入DDBusUtil-》httpUtil--####,传入参数url：http://m.doudou360.com/bus/i/line.ashx?query=8</td>
+<td title="com.tian.csbus.GetBusInfo category">com.tian.csbus.GetBusInfo</td>
+<td title="Message">正常--####--进入GetBusInfo-》busUtil--####,传入参数url：http://58.20.113.233:9000/csTravel/lineQuery/queryStationByLinename encrypParam:linename=旅1</td>
 </tr>
 
 <tr>
-<td>65</td>
+<td>782</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
-<td title="com.tian.xcBus.DDBusUtil category">com.tian.xcBus.DDBusUtil</td>
-<td title="Message">正常--####--出来DDBusUtil-》httpUtil--####</td>
-</tr>
-
-<tr>
-<td>282</td>
-<td title="main thread">main</td>
-<td title="Level">INFO</td>
-<td title="com.tian.xcBus.Bus category">com.tian.xcBus.Bus</td>
-<td title="Message">正常--####--出来Bus-&gt;queryLine--####,返回resMap：{code=0000, name=8路, id=811, desc=1}</td>
-</tr>
-
-<tr>
-<td>283</td>
-<td title="main thread">main</td>
-<td title="Level">INFO</td>
-<td title="com.tian.xcBus.Bus category">com.tian.xcBus.Bus</td>
-<td title="Message">正常--####--进入Bus-&gt;getBusInfo--####,传入参数busline：811,desc:1</td>
-</tr>
-
-<tr>
-<td>283</td>
-<td title="main thread">main</td>
-<td title="Level">INFO</td>
-<td title="com.tian.xcBus.DDBusUtil category">com.tian.xcBus.DDBusUtil</td>
-<td title="Message">正常--####--进入DDBusUtil-》httpUtil--####,传入参数url：http://m.doudou360.com/bus/i/live.ashx?lid=811&_=1452005192749</td>
-</tr>
-
-<tr>
-<td>309</td>
-<td title="main thread">main</td>
-<td title="Level">INFO</td>
-<td title="com.tian.xcBus.DDBusUtil category">com.tian.xcBus.DDBusUtil</td>
-<td title="Message">正常--####--出来DDBusUtil-》httpUtil--####</td>
-</tr>
-
-<tr>
-<td>309</td>
-<td title="main thread">main</td>
-<td title="Level">INFO</td>
-<td title="com.tian.xcBus.Bus category">com.tian.xcBus.Bus</td>
-<td title="Message">正常--####--出来Bus-&gt;getBusInfo--####,返回resString：{"success":1,"message":"","result":{"name":"8路","cur":{"lid":811,"sid":4679,"dire":"上行","time":["",""]},"oppo":{"lid":812,"sid":4678},"stas":["客运中心","石柱湾","新和成","塔山村口","塔山村","新龙实业","七星大桥","和悦广场","体育馆","行政服务中心","鼓山公园","佛城大酒店","大佛城","人民医院(南)","新昌报社","南明小学","新昌宾馆","新世纪广场","联盟新村","青年路小学","实验小学","新东门","秀水苑","达利广场","育英路口","教师之家","城东大桥","华佳热电","中财公司","东站"],"live":[[2,0,1],[6,0,1],[10,0,1],[18,1,1],[19,0,1]],"next":""}}
+<td title="com.tian.csbus.GetBusInfo category">com.tian.csbus.GetBusInfo</td>
+<td title="Message">正常--####--出来GetBusInfo-》busUtil--####,返回resString：[]
 </td>
 </tr>
 
 <tr>
-<td>312</td>
+<td>783</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
-<td title="com.tian.xcBus.Bus category">com.tian.xcBus.Bus</td>
-<td title="Message">正常--####--进入Bus-&gt;dealInfo--####,传入参数busInfo：
-{"success":1,"message":"","result":{"name":"8路","cur":{"lid":811,"sid":4679,"dire":"上行","time":["",""]},"oppo":{"lid":812,"sid":4678},"stas":["客运中心","石柱湾","新和成","塔山村口","塔山村","新龙实业","七星大桥","和悦广场","体育馆","行政服务中心","鼓山公园","佛城大酒店","大佛城","人民医院(南)","新昌报社","南明小学","新昌宾馆","新世纪广场","联盟新村","青年路小学","实验小学","新东门","秀水苑","达利广场","育英路口","教师之家","城东大桥","华佳热电","中财公司","东站"],"live":[[2,0,1],[6,0,1],[10,0,1],[18,1,1],[19,0,1]],"next":""}}
-</td>
+<td title="com.tian.csbus.BusFunction category">com.tian.csbus.BusFunction</td>
+<td title="Message">
+
+-------------------------------------------------------------</td>
 </tr>
 
 <tr>
-<td>317</td>
+<td>783</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
-<td title="com.tian.xcBus.Bus category">com.tian.xcBus.Bus</td>
-<td title="Message">正常--####--出来Bus-&gt;dealInfo--####,返回resMap：{code=0000, stas=  客运中心
-  石柱湾
-&gt;新和成
-  塔山村口
-  塔山村
-  新龙实业
-&gt;七星大桥
-  和悦广场
-  体育馆
-  行政服务中心
-&gt;鼓山公园
-  佛城大酒店
-  大佛城
-  人民医院(南)
-  新昌报社
-  南明小学
-  新昌宾馆
-=新世纪广场
-  联盟新村
-&gt;青年路小学
-  实验小学
-  新东门
-  秀水苑
-  达利广场
-  育英路口
-  教师之家
-  城东大桥
-  华佳热电
-  中财公司
-  东站
-, name=8路, isBusness=ok, desc="客运中心" 开往 "东站"}</td>
+<td title="com.tian.csbus.BusFunction category">com.tian.csbus.BusFunction</td>
+<td title="Message">0001</td>
 </tr>

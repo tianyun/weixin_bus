@@ -8,7 +8,7 @@ import java.net.URL;
 
 import org.apache.log4j.Logger;
 
-import com.tian.xcBus.Bus;
+import com.tian.xcbus.Bus;
 
 public class BusHttpNew {
 	private static final Logger LOGGER = Logger.getLogger(Bus.class);

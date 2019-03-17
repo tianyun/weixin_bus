@@ -1,4 +1,4 @@
-package com.tian.xcBus;
+package com.tian.xcbus;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

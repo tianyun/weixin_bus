@@ -15,67 +15,17 @@
 		<servlet-name>weixinServlet</servlet-name>
 		<url-pattern>/wx.do</url-pattern>
 	</servlet-mapping>
-	<servlet>
-		<servlet-name>MakeFriend_To</servlet-name>
-		<servlet-class>com.tian.web.MakeFriend.MakeFriend_To</servlet-class>
-	</servlet>
-	<servlet>
-		<servlet-name>MakeFriend_Api</servlet-name>
-		<servlet-class>com.tian.web.MakeFriend.MakeFriend_Api</servlet-class>
-	</servlet>
-	<servlet>
-		<servlet-name>MakeFriend_GetInfo</servlet-name>
-		<servlet-class>com.tian.web.MakeFriend.MakeFriend_GetInfo</servlet-class>
-	</servlet>
+	
 	<servlet>
 		<servlet-name>BusApi</servlet-name>
 		<servlet-class>com.tian.servlet.BusApi</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>MakeFriend_To</servlet-name>
-		<url-pattern>/servlet/MakeFriend_To</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>MakeFriend_Api</servlet-name>
-		<url-pattern>/servlet/MakeFriend_Api.do</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>MakeFriend_GetInfo</servlet-name>
-		<url-pattern>/servlet/MakeFriend_GetInfo</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
 		<servlet-name>BusApi</servlet-name>
 		<url-pattern>/servlet/BusApi</url-pattern>
 	</servlet-mapping>
-	<servlet>
-		<description></description>
-		<servlet-name>Makefriend_Api</servlet-name>
-		<servlet-class>com.tian.api.Makefriend_Api</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Makefriend_Api</servlet-name>
-		<url-pattern>/Api/Makefriend_Api</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<description></description>
-		<display-name>BusGetPalce</display-name>
-		<servlet-name>BusGetPalce</servlet-name>
-		<servlet-class>com.tian.api.BusGetPalce</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>BusGetPalce</servlet-name>
-		<url-pattern>/BusGetPalce</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<description></description>
-		<display-name>AllApi</display-name>
-		<servlet-name>AllApi</servlet-name>
-		<servlet-class>com.tian.servlet.AllApi</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>AllApi</servlet-name>
-		<url-pattern>/servlet/AllApi</url-pattern>
-	</servlet-mapping>
+	
+	
 	<servlet>
 		<description></description>
 		<display-name>TestApi</display-name>
@@ -86,16 +36,7 @@
 		<servlet-name>TestApi</servlet-name>
 		<url-pattern>/servlet/TestApi</url-pattern>
 	</servlet-mapping>
-	<servlet>
-		<description></description>
-		<display-name>MoreApi</display-name>
-		<servlet-name>MoreApi</servlet-name>
-		<servlet-class>com.tian.servlet.MoreApi</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>MoreApi</servlet-name>
-		<url-pattern>/servlet/MoreApi</url-pattern>
-	</servlet-mapping>
+	
 	<servlet>
 		<description></description>
 		<display-name>CQBusApi</display-name>
@@ -106,24 +47,15 @@
 		<servlet-name>CQBusApi</servlet-name>
 		<url-pattern>/servlet/CQBusApi</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
 		<description></description>
-		<display-name>GetCheckMsg</display-name>
-		<servlet-name>GetCheckMsg</servlet-name>
-		<servlet-class>com.tian.web.adv.GetCheckMsg</servlet-class>
+		<display-name>CSBusApi</display-name>
+		<servlet-name>CSBusApi</servlet-name>
+		<servlet-class>com.tian.servlet.CSBusApi</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>GetCheckMsg</servlet-name>
-		<url-pattern>/servlet/GetCheckMsg.do</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<description></description>
-		<display-name>SubInfo</display-name>
-		<servlet-name>SubInfo</servlet-name>
-		<servlet-class>com.tian.web.adv.SubInfo</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>SubInfo</servlet-name>
-		<url-pattern>/servlet/SubInfo.do</url-pattern>
+		<servlet-name>CSBusApi</servlet-name>
+		<url-pattern>/servlet/CSBusApi</url-pattern>
 	</servlet-mapping>
 </web-app>

@@ -1,13 +1,11 @@
 package com.tian.servlet;
 
-import api.BusGetPlace;
-import api.BusInfo;
-import api.Wether;
+import com.tian.api.BusGetPlace;
 import com.tian.util.CheckUtil;
 import com.tian.util.MemCachedUtil;
 import com.tian.util.MessageUtil;
-import com.tian.xcBus.Bus;
-import com.tian.xcBus.BusAction;
+import com.tian.xcbus.Bus;
+import com.tian.xcbus.BusAction;
 
 import java.io.IOException;
 import java.io.PrintStream;

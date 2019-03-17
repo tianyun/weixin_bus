@@ -1,4 +1,4 @@
-package com.tian.xcBus;
+package com.tian.xcbus;
 
 import java.io.InputStream;
 import java.util.Arrays;
@@ -10,9 +10,9 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
+import com.tian.api.Wether;
 import com.tian.util.DBUtilMysql;
 
-import api.Wether;
 
 public class BusAction {
 	protected static final Logger LOGGER = Logger.getLogger(BusAction.class);
